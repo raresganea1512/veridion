@@ -1,0 +1,19 @@
+{
+  "name": "insurance-company-classifier",
+  "version": "1.0.0",
+  "description": "A robust company classifier for insurance taxonomy",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "natural": "^6.10.4",
+    "ml-matrix": "^6.10.4",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
